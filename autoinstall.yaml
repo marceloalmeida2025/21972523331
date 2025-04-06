@@ -1,0 +1,33 @@
+#cloud-config
+autoinstall:
+    version: 1
+    identity:
+        realname: 'Marcello Almeida'
+        hostname: ubuntu-Games
+        username: Marcello
+        password: '$y$j9T$iINCNyLNUMxVKTfv4TL9N/$SnG9SB9lZF1h4bTvh2vn1EBvsFPD5gNQ4K6o75T0PT9'
+    locale: pt_BR.utf8
+    keyboard:
+        layout: br
+    timezone: "America/Sao_Paulo"   
+    packages:
+        - FreeOffice
+        - gimp
+        - git
+        - wget
+        - Discord
+        - RPCS3
+        - PCSX2
+        - PPSPP
+        - Ryujinx
+    snaps:
+        - name: spotify
+          channel: stable
+          classic: false
+    codecs:
+        install: true
+    drivers:
+        install: true
+    updates: all
+    shutdown: reboot
+

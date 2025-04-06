@@ -11,15 +11,15 @@ autoinstall:
         layout: br
     timezone: "America/Sao_Paulo"   
     packages:
-        - FreeOffice
+        - freeoffice
         - gimp
         - git
         - wget
-        - Discord
-        - RPCS3
-        - PCSX2
-        - PPSPP
-        - Ryujinx
+        - discord
+        - rpcs3
+        - pcsx2
+        - ppspp
+        - ryujinx
     snaps:
         - name: spotify
           channel: stable

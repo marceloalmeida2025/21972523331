@@ -3,23 +3,18 @@ autoinstall:
     version: 1
     identity:
         realname: 'Marcello Almeida'
-        hostname: ubuntu-Games
+        hostname: ubuntu-Soares
         username: Marcello
-        password: '$y$j9T$iINCNyLNUMxVKTfv4TL9N/$SnG9SB9lZF1h4bTvh2vn1EBvsFPD5gNQ4K6o75T0PT9'
+        password: '$y$j9T$1L72C2ujYqmvBU23TL6f91$CugtVVodol7bo8X5KAVD2yiEpgwJ2IWIDCirAuHsMh8'
     locale: pt_BR.utf8
     keyboard:
         layout: br
     timezone: "America/Sao_Paulo"   
     packages:
-        - freeoffice
+        - libreoffice
         - gimp
         - git
         - wget
-        - discord
-        - rpcs3
-        - pcsx2
-        - ppspp
-        - ryujinx
     snaps:
         - name: spotify
           channel: stable
